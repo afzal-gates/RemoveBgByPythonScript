@@ -13,7 +13,6 @@ namespace RunPythonScript.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
@@ -33,11 +32,11 @@ namespace RunPythonScript.Controllers
 
 
         [HttpGet("python")]
-        public async Task<IActionResult> GetPuthon()
+        public async Task<IActionResult> GetPython()
         {
             try
             {
-                var result = RunPythonScript("app").Result;
+                var result = RunPythonScript("AnimationGenAI").Result;
                 return Ok((string)result+"="+Guid.NewGuid());
             }
             catch(Exception ex)
@@ -65,7 +64,7 @@ namespace RunPythonScript.Controllers
                     sys.path.append(@"C:\Users\localadmin\source\repos\RunPythonScript\RunPythonScript\");
                     var pythonScript = Py.Import(scriptName);
 
-                    result = pythonScript.InvokeMethod("main");
+                    result = pythonScript.InvokeMethod("");
                     Console.WriteLine(result);
                 }
                 return result;

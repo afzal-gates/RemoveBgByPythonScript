@@ -7,7 +7,75 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="abc.mp4" />
+    <None Remove="cartoon_output.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\RunPythonScript.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\RunPythonScript.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net8.0\RunPythonScript.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net8.0\RunPythonScript.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\RunPythonScript.deps.json" />
+    <Content Include="bin\Debug\net8.0\RunPythonScript.runtimeconfig.json" />
+    <Content Include="bin\Debug\net8.0\RunPythonScript.staticwebassets.endpoints.json" />
+    <Content Include="obj\Debug\net8.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net8.0\RunPythonScript.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\RunPythonScript.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.endpoints.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.references.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.removed.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\RunPythonScript.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Python.Runtime.dll" />
+    <None Include="bin\Debug\net8.0\RunPythonScript.dll" />
+    <None Include="bin\Debug\net8.0\RunPythonScript.exe" />
+    <None Include="bin\Debug\net8.0\RunPythonScript.pdb" />
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\refint\RunPythonScript.dll" />
+    <None Include="obj\Debug\net8.0\ref\RunPythonScript.dll" />
+    <None Include="obj\Debug\net8.0\RunPytho.E120FF46.Up2Date" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.assets.cache" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.dll" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\RunPythonScript.pdb" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.build.RunPythonScript.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RunPythonScript.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RunPythonScript.props" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net8.0\RunPythonScript.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net8.0\RunPythonScript.assets.cache" />
+    <None Include="obj\Release\net8.0\RunPythonScript.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net8.0\RunPythonScript.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\RunPythonScript.csproj.nuget.g.props" />
+    <None Include="obj\RunPythonScript.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="pythonnet" Version="3.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net8.0\" />
+    <Folder Include="obj\Release\net8.0\refint\" />
+    <Folder Include="obj\Release\net8.0\ref\" />
   </ItemGroup>
 
 </Project>

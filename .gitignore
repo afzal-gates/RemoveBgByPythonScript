@@ -2,4 +2,14 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/RunPythonScript/VID_20241208_173007.mp4
+/RunPythonScript/*.mp4
+/RunPythonScript/*.mp4
+/RunPythonScript/*.jpeg
+/RunPythonScript/*.jpg
+/RunPythonScript/*.png
+
+/RunPythonScript/obj/*
+/RunPythonScript/bin/*
+*.jpg
+/.vs
+/RunPythonScript/__pycache__
